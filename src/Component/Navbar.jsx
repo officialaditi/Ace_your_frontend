@@ -11,7 +11,8 @@ const Navbar = () => {
 
   const navLink = [
     { id: 1, text: "Home", url: "/" },
-    { id: 2, text: "JavaScript Questions", url: "/js-questions" },
+    { id: 2, text: "JavaScript Theory Question", url: '/js-theoryQuestion'},
+    { id: 2, text: "JavaScript Coding Questions", url: "/js-questions" },
     { id: 3, text: "React Questions", url: "/react-questions" },
     { id: "4", text: "About Us", url: "about-us" },
   ];
