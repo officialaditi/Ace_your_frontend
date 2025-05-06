@@ -4,7 +4,7 @@ import { Theory_Questions } from "../data/TheoryQuestion";
 const TheoryQuestionScreen = () => {
   return (
     <>
-      <div className="min-h-screen text-white">
+      <div className="min-h-screen w-full text-white">
         <h1 className="py-3 text-3xl font-bold text-center">
           Theory Questions
         </h1>
