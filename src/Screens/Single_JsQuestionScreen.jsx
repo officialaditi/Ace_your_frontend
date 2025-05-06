@@ -1,5 +1,5 @@
 import { Link, useParams } from "react-router-dom";
-import { JS_Questions } from "../JavascriptQuestion";
+import { JS_Questions } from "../data/JavascriptQuestion";
 import { FaArrowLeftLong, FaArrowRightLong } from "react-icons/fa6";
 import { BsCodeSlash } from "react-icons/bs";
 import { useEffect } from "react";
