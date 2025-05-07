@@ -22,7 +22,8 @@ const SingleTheoryQuestionScreen = () => {
           <FaArrowLeftLong />
           Back to JavaScript Question
         </Link>
-        <div className="bg-slate-700 text-white rounded-md md:h-40 mx-10 flex items-center justify-center">
+        <div className="bg-slate-700 text-white rounded-md md:h-40 mx-10 flex flex-col items-center justify-center">
+          <h1 className=" text-xl my-2 md:text-2xl">{theory.question}</h1>
           <h2 className="text-semibold text-xl md:text-3xl mx-10 py-2  ">
             {theory.answer}
           </h2>
